@@ -1,6 +1,7 @@
 header {
-    width: 100vw;
+    width: calc(65.83vw + 4rem);
     height: 10vh;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
     background-color: #8a2be2;
@@ -8,6 +9,7 @@ header {
 
 header > img {
     height: 10vh;
+    border-radius: 2rem 0 0 2rem;
 }
 
 header > nav {
@@ -25,7 +27,7 @@ header > nav > ul > li {
 
 header > nav > ul > li > a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     &:hover {
         color: #ffd700;

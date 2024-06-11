@@ -3,3 +3,27 @@
   padding: 0;
 }
 
+.button-default {
+  margin: auto;
+  margin-top: 1rem;
+  padding: 3rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #FF1493;
+  width: 32rem;
+}
+
+.h2-default {
+  font-size: 3.6rem;
+  color: #FFD700;
+  text-shadow: 1px 2px 1px black;
+}
+
+.p-default {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-shadow: 1px 2px 1px black;
+  margin-bottom: 2rem;
+}
