@@ -5,24 +5,6 @@ function About() {
     <section>
         <h2></h2>
         <p></p>
-        <ul>
-            <li>
-                <img src="" alt="" />
-                <a href="">Instagram</a>
-            </li>
-            <li>
-                <img src="" alt="" />
-                <a href="">Twitter</a>
-            </li>
-            <li>
-                <img src="" alt="" />
-                <a href="">Facebook</a>
-            </li>
-            <li>
-                <img src="" alt="" />
-                <a href="">YouTube</a>
-            </li>
-        </ul>
     </section>
   )
 }
