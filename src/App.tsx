@@ -3,6 +3,7 @@ import Form from "./components/Form";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Tickets from "./components/Tickets";
+import Contacts from "./components/Contacts";
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
       <Tickets/>
 
       <Form/>
+
+      <Contacts/>
 
     </div>
   );
