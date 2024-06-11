@@ -3,7 +3,7 @@ import './style.css'
 function Header() {
   return (
     <header>
-        <img src="src\assets\logo.jpg" alt="logo do evento AnimeConnect"/>
+        <img src="src\assets\logo.jpg" alt="Logo do Evento AnimeConnect"/>
 
         <nav>
             <ul>

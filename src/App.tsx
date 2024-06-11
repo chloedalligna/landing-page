@@ -2,6 +2,7 @@ import "./App.css";
 import Form from "./components/Form";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Tickets from "./components/Tickets";
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <Header/>
 
       <Hero/>
+
+      <Tickets/>
 
       <Form/>
 
