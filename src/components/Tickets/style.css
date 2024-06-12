@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+    padding: 3rem 2rem 3rem 2rem;
 }
 
 #section-tickets > img {
@@ -13,6 +14,6 @@
     transition: 0.6s;
     &:hover {
         scale: 1.15;
-        box-shadow: 0 0 1.4rem 0.4rem black;
+        animation: mover 2s infinite, brilharCaixa 2s infinite;
     } 
 }

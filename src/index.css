@@ -16,12 +16,14 @@
     color: white;
     background-color: #FF1493;
     width: 32rem;
+    cursor: pointer;
     transition: 0.6s;
     &:hover {
       background-color: white;
       color: #FF1493;
     }
-    }
+    animation: mover 2s infinite, brilharCaixa 2s infinite;
+}
 
 .h2-default {
   font-size: 3.2rem;
@@ -33,7 +35,7 @@
   font-size: 1.5rem;
   color: #FFFFFF;
   text-shadow: 1px 2px 1px black;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .box-default {

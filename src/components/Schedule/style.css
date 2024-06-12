@@ -1,0 +1,41 @@
+#section-schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: 65.83vw;
+    padding: 2rem;
+    background-color: #00bfff;
+}
+
+#section-schedule > table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid darkblue;
+}
+
+#section-schedule > table > tr {
+    align-content: center;
+    border: 1px solid darkblue;
+}
+
+#section-schedule > table > tr > th {
+    border: 1px solid darkblue;
+}
+
+#section-schedule > table > tr > td {
+    align-content: center;
+    border: 1px solid darkblue;
+}
+
+.th1 {
+    background-color: aqua;
+}
+
+.th2 {
+    background-color: yellow
+}
+
+.th3 {
+    background-color: plum;
+}

@@ -4,6 +4,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Tickets from "./components/Tickets";
 import Contacts from "./components/Contacts";
+import Location from "./components/Location";
+import Schedule from "./components/Schedule";
+import './animation.css'
 
 function App() {
 
@@ -25,7 +28,11 @@ function App() {
 
       <Tickets/>
 
+      <Schedule/>
+
       <Form/>
+
+      <Location/>
 
       <Contacts/>
 

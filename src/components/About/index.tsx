@@ -2,9 +2,13 @@ import './style.css'
 
 function About() {
   return (
-    <section>
-        <h2></h2>
-        <p></p>
+    <section id='section-about'>
+        <h2 className='h2-default'>
+          Sobre o Anime Connect
+        </h2>
+        <p className='p-default'>
+          Não sei
+        </p>
     </section>
   )
 }

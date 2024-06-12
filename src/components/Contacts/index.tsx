@@ -6,7 +6,7 @@ function Contacts() {
 
         <div>
           <h2 className='h2-default'>Nossas Redes</h2>
-          <p></p>
+          <p className='p-default'>Siga nossas redes sociais para ficar por dentro de tudo que acontece!</p>
         </div>
         
         <ul>  
