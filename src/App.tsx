@@ -7,6 +7,7 @@ import Contacts from "./components/Contacts";
 import Location from "./components/Location";
 import Schedule from "./components/Schedule";
 import './animation.css'
+import About from "./components/About";
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
       <Tickets/>
 
       <Schedule/>
+
+      <About/>
 
       <Form/>
 

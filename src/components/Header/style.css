@@ -40,3 +40,13 @@ header > nav > ul > li > a {
 /* header > nav > ul > li > a:hover{
     color: #ffd700;
 } */
+
+.scrolled {
+    background-color: #4b0082; /* Cor quando desce na página */
+    transition: 1.5s;
+}
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

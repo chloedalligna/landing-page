@@ -1,0 +1,10 @@
+#section-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 65.83vw;
+    padding: 2rem;
+    gap: 1rem;
+}

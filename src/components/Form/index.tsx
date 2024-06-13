@@ -7,8 +7,8 @@ function Form() {
   const [name, setName] = useState<string>('');
   const [lastname, setLastname] = useState<string>('');
   const [cpf, setCpf] = useState<string>('');
-  const [age, setAge] = useState<number | string>('');
-  const [cep, setCep] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [tel, setTel] = useState<number | string>('');
 
   return (
     <>
@@ -49,23 +49,23 @@ function Form() {
           </fieldset>
 
           <fieldset className="fieldset-form">
-            <label htmlFor="age">Idade:</label>
+            <label htmlFor="age">E-mail:</label>
             <input
-              name="age"
-              type="number"
-              onChange={(e) => setAge(Number(e.target.value))}
-              value={age}
+              name="email"
+              type="text"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
             />
             {/* OU setIdade(+e.target.value) para converter string para number*/}
           </fieldset>
 
           <fieldset className="fieldset-form">
-            <label htmlFor="cep">CEP:</label>
+            <label htmlFor="cep">Telefone:</label>
             <input
-              name="cep"
-              type="text"
-              onChange={(e) => setCep(e.target.value)}
-              value={cep}
+              name="tel"
+              type="number"
+              onChange={(e) => setTel(Number(e.target.value))}
+              value={tel}
             />
           </fieldset>
 
